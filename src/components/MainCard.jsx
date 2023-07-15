@@ -9,7 +9,7 @@ function MainCard() {
     return () => {
       getAdvice();
     };
-  });
+  }, []);
 
   const getAdvice = async () => {
     try {
