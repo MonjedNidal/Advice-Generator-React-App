@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import Axios from "axios";
 
 function MainCard() {
-  const [advice, setAdvice] = useState("");
-  const [adviceId, setAdviceId] = useState("");
+  const [advice, setAdvice] = useState("You're not as fat as you think you are.");
+  const [adviceId, setAdviceId] = useState("111");
 
   useEffect(() => {
     return () => {
